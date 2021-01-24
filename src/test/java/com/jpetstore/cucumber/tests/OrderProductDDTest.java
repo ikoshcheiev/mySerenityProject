@@ -1,6 +1,6 @@
-package com.jpetstore.tests;
+package com.jpetstore.cucumber.tests;
 
-import com.jpetstore.steps.serenity.PetStoreSteps;
+import com.jpetstore.cucumber.steps.serenity.PetStoreSteps;
 import com.jpetstore.utils.PetCategories;
 import net.serenitybdd.junit.runners.SerenityParameterizedRunner;
 import net.thucydides.core.annotations.Managed;

@@ -1,4 +1,4 @@
-package com.jpetstore.steps.serenity;
+package com.jpetstore.cucumber.steps.serenity;
 
 import com.jpetstore.pages.*;
 import com.jpetstore.utils.PetCategories;

@@ -1,7 +1,7 @@
-package com.jpetstore.tests;
+package com.jpetstore.cucumber.tests;
 
 import com.github.javafaker.Faker;
-import com.jpetstore.steps.serenity.PetStoreSteps;
+import com.jpetstore.cucumber.steps.serenity.PetStoreSteps;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;

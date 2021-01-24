@@ -1,7 +1,7 @@
 package com.jpetstore.cucumber.steps;
 
 import com.github.javafaker.Faker;
-import com.jpetstore.steps.serenity.PetStoreSteps;
+import com.jpetstore.cucumber.steps.serenity.PetStoreSteps;
 import com.jpetstore.utils.PetCategories;
 import cucumber.api.DataTable;
 import cucumber.api.java.en.And;
@@ -134,8 +134,8 @@ public class UserRegistrationSteps {
 
     @And("^I enter my payment details (.*),(.*),(.*),(.*),(.*),(.*),(.*),(.*),(.*),(.*),(.*)$")
     public void i_enter_my_payment_details_(String cardType, String cardNumber, String expiryDate, String firstname,
-                                            String lastname, String addr1, String addr2, String city, String state, String zip, String country)
-            throws Throwable {
+                                            String lastname, String addr1, String addr2, String city, String state,
+                                            String zip, String country) {
 
         shopper.enterPaymentAndBillingDetails(cardType, cardNumber, expiryDate, firstname,
                 lastname, addr1, addr2, city, state, zip, country);
